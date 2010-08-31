@@ -56,6 +56,7 @@ public class ProtipWidget extends AppWidgetProvider {
 
     public static final String PREFS_NAME = "Protips";
     public static final String PREFS_TIP_NUMBER = "widget_tip";
+    public static final String PREFS_TIP_SET = "widget_tip_set";
 
     private static Random sRNG = new Random();
 
@@ -65,6 +66,7 @@ public class ProtipWidget extends AppWidgetProvider {
     // initial appearance: eyes closed, no bubble
     private int mIconRes = R.drawable.droidman_open;
     private int mMessage = 0;
+    private int mTipSet = 0;
 
     private AppWidgetManager mWidgetManager = null;
     private int[] mWidgetIds;
@@ -79,15 +81,15 @@ public class ProtipWidget extends AppWidgetProvider {
 
         SharedPreferences pref = context.getSharedPreferences(PREFS_NAME, 0);
         mMessage = pref.getInt(PREFS_TIP_NUMBER, 0);
+        mTipSet = pref.getInt(PREFS_TIP_SET, 0);
 
-        mTips = context.getResources().getTextArray(R.array.tips);
+        mTips = context.getResources().getTextArray(mTipSet == 1 ? R.array.tips2 : R.array.tips);
 
         if (mTips != null) {
             if (mMessage >= mTips.length) mMessage = 0;
         } else {
             mMessage = -1;
         }
-
     }
 
     public void goodmorning() {
@@ -112,6 +114,9 @@ public class ProtipWidget extends AppWidgetProvider {
     public void onReceive(Context context, Intent intent) {
         setup(context);
 
+        Resources res = mContext.getResources();
+        mTips = res.getTextArray(mTipSet == 1 ? R.array.tips2 : R.array.tips);
+
         if (intent.getAction().equals(ACTION_NEXT_TIP)) {
             mMessage = getNextMessageIndex();
             SharedPreferences.Editor pref = context.getSharedPreferences(PREFS_NAME, 0).edit();
@@ -122,6 +127,25 @@ public class ProtipWidget extends AppWidgetProvider {
             blink(intent.getIntExtra(EXTRA_TIMES, 1));
         } else if (intent.getAction().equals(AppWidgetManager.ACTION_APPWIDGET_ENABLED)) {
             goodmorning();
+        } else if (intent.getAction().equals("android.provider.Telephony.SECRET_CODE")) {
+            Log.d("Protips", "ACHIEVEMENT UNLOCKED");
+            mTipSet = 1 - mTipSet;
+            mMessage = 0;
+
+            SharedPreferences.Editor pref = context.getSharedPreferences(PREFS_NAME, 0).edit();
+            pref.putInt(PREFS_TIP_NUMBER, mMessage);
+            pref.putInt(PREFS_TIP_SET, mTipSet);
+            pref.commit();
+
+            mContext.startActivity(
+                new Intent(Intent.ACTION_MAIN)
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                    .addCategory(Intent.CATEGORY_HOME));
+            
+            final Intent bcast = new Intent(context, ProtipWidget.class);
+            bcast.setAction(ACTION_POKE);
+            bcast.putExtra(EXTRA_TIMES, 3);
+            mContext.sendBroadcast(bcast);
         } else {
             mIconRes = R.drawable.droidman_open;
             refresh();

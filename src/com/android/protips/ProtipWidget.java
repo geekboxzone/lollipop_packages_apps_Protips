@@ -16,36 +16,22 @@
 
 package com.android.protips;
 
-import android.app.AlarmManager;
 import android.app.PendingIntent;
-import android.app.Service;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
-import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
-import android.net.Uri;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.os.IBinder;
-import android.os.Looper;
-import android.os.Message;
-import android.os.SystemClock;
-import android.text.format.Time;
-import android.text.Spannable;
 import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.Random;
 
 /** Mister Widget appears on your home screen to provide helpful tips. */
 public class ProtipWidget extends AppWidgetProvider {
@@ -58,11 +44,16 @@ public class ProtipWidget extends AppWidgetProvider {
     public static final String PREFS_TIP_NUMBER = "widget_tip";
     public static final String PREFS_TIP_SET = "widget_tip_set";
 
-    private static Random sRNG = new Random();
-
     private static final Pattern sNewlineRegex = Pattern.compile(" *\\n *");
     private static final Pattern sDrawableRegex = Pattern.compile(" *@(drawable/[a-z0-9_]+) *");
 
+    private static Handler mAsyncHandler;
+    static {
+        HandlerThread thr = new HandlerThread("ProtipWidget async");
+        thr.start();
+        mAsyncHandler = new Handler(thr.getLooper());
+    }
+    
     // initial appearance: eyes closed, no bubble
     private int mIconRes = R.drawable.droidman_open;
     private int mMessage = 0;
@@ -111,7 +102,19 @@ public class ProtipWidget extends AppWidgetProvider {
     }
 
     @Override
-    public void onReceive(Context context, Intent intent) {
+    public void onReceive(final Context context, final Intent intent) {
+        final PendingResult result = goAsync();
+        Runnable worker = new Runnable() {
+            @Override
+            public void run() {
+                onReceiveAsync(context, intent);
+                result.finish();
+            }
+        };
+        mAsyncHandler.post(worker);
+    }
+    
+    void onReceiveAsync(Context context, Intent intent) {
         setup(context);
 
         Resources res = mContext.getResources();
@@ -121,7 +124,7 @@ public class ProtipWidget extends AppWidgetProvider {
             mMessage = getNextMessageIndex();
             SharedPreferences.Editor pref = context.getSharedPreferences(PREFS_NAME, 0).edit();
             pref.putInt(PREFS_TIP_NUMBER, mMessage);
-            pref.commit();
+            pref.apply();
             refresh();
         } else if (intent.getAction().equals(ACTION_POKE)) {
             blink(intent.getIntExtra(EXTRA_TIMES, 1));
@@ -135,7 +138,7 @@ public class ProtipWidget extends AppWidgetProvider {
             SharedPreferences.Editor pref = context.getSharedPreferences(PREFS_NAME, 0).edit();
             pref.putInt(PREFS_TIP_NUMBER, mMessage);
             pref.putInt(PREFS_TIP_SET, mTipSet);
-            pref.commit();
+            pref.apply();
 
             mContext.startActivity(
                 new Intent(Intent.ACTION_MAIN)

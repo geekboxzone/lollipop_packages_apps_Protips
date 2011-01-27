@@ -16,6 +16,6 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- outdated translation 6038438001792795988 -->     <string name="widget_name" msgid="5948202656358353180">"Tips voor het startscherm"</string>
-    <string name="pager_footer" msgid="8874468132852452517">"<xliff:g id="CURPAGE">%1$d</xliff:g> van <xliff:g id="NUMPAGES">%2$d</xliff:g>"</string>
+    <string name="widget_name" msgid="5948202656358353180">"Pagrindinio ekrano patarimai"</string>
+    <string name="pager_footer" msgid="8874468132852452517">"<xliff:g id="CURPAGE">%1$d</xliff:g> iš <xliff:g id="NUMPAGES">%2$d</xliff:g>"</string>
 </resources>

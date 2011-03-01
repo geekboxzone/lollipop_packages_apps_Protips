@@ -16,6 +16,6 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="widget_name" msgid="5948202656358353180">"Ana ekranla ilgili ipuçları"</string>
+    <string name="widget_name" msgid="5948202656358353180">"Ana sayfayla ilgili ipuçları"</string>
     <string name="pager_footer" msgid="8874468132852452517">"<xliff:g id="CURPAGE">%1$d</xliff:g> / <xliff:g id="NUMPAGES">%2$d</xliff:g>"</string>
 </resources>

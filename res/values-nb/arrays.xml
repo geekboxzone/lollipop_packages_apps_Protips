@@ -18,7 +18,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
     <item msgid="4457112202911142877">"Vis alle programmer."\n" Berør ikonet for Oppstart. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"Dra programmer til startsiden."\n" Trykk på og hold inne et program i programlisten inntil den vibrerer."</item>
+    <item msgid="8842580895829057430">"Dra apper til startsiden."\n" Trykk på og hold inne en app i programlisten inntil den vibrerer."</item>
     <item msgid="8903218961940756528">"Omorganiser startsiden."\n" Berør og hold nede et element, og når det vibrerer, dra det dit du ønsker."</item>
     <item msgid="3123213860439458492">"Fjern elementer."\n" Berør og hold nede et element, og når det vibrerer, dra det til papirkurven. @drawable/trash"</item>
     <item msgid="1000948398885889319">"Flere startsider."\n" Sveip til venstre eller høyre for å bytte. Dra elementer til andre skjermer."</item>

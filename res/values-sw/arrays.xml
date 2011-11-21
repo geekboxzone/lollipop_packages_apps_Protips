@@ -18,7 +18,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
     <item msgid="4457112202911142877">"Tazama Programu zako zote. "\n"Gusa aikoni ya Kizinduzi. @drawable/all_Programu"</item>
-    <item msgid="8842580895829057430">"Kokota programu kwa skrini yako ya Nyumbani "\n" Gusa na ushikilie programu kwenye Kizinduzi hadi itikisike."</item>
+    <item msgid="8842580895829057430">"Kokota programu hadi kwenye skrini yako ya Nyumbani."\n" Gusa na ushikilie programu kwenye Kizinduzi hadi itikisike."</item>
     <item msgid="8903218961940756528">"Panga skrini yako ya Nyumbani upya"\n"Gusa na ushikilie kipengee na kinapotikisa, kikokote hadi mahali unapotaka."</item>
     <item msgid="3123213860439458492">"Ondoa vipengee. "\n" Gusa na ushikilie kipengee na wakati kinapotikisa, kikokote hadi kwenye aikoni ya Taka. @drawable/trash"</item>
     <item msgid="1000948398885889319">"Skrini nyingi za Nyumbani"\n" Telezesha kushoto au kulia kubadilisha. Kokota vipengee kwa skrini zingine."</item>

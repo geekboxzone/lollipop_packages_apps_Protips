@@ -34,7 +34,7 @@
     <string-array name="tips">
         <!-- Tip: Where the launcher icon is and what it does. With icon. -->
         <item>See all your apps.\n
-        Touch the Launcher icon. <xliff:g id="icon" example="icon">@drawable/all_apps</xliff:g></item>
+        Touch the Launcher icon. @drawable/all_apps</item>
 
         <!-- Tip: Longpress in Launcher (all apps) to drag apps to the home screen. -->
         <item>Drag apps to your Home screen.\n
@@ -46,7 +46,7 @@
 
         <!-- Tip: Longpress icons/widgets and drag to trash to remove them. -->
         <item>Remove items.\n
-        Touch &amp; hold an item and when it vibrates, drag it to the Trash icon. <xliff:g id="icon" example="icon">@drawable/trash</xliff:g></item>
+        Touch &amp; hold an item and when it vibrates, drag it to the Trash icon. @drawable/trash</item>
 
         <!-- Tip: Swipe to switch workspaces; drag items to move them to other
              workspaces. -->

@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Vaadake kõiki oma rakendusi."\n" Puudutage käivitajaikooni. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"Lohistage rakendused oma avakuvale."\n" Puudutage käivitajas rakendust ja hoidke seda all seni, kuni see vibreerima hakkab."</item>
-    <item msgid="8903218961940756528">"Korraldage oma avakuva."\n" Puudutage üksust ja hoidke seda all ning kui see hakkab vibreerima, siis lohistage see sinna, kuhu soovite."</item>
-    <item msgid="3123213860439458492">"Eemaldage üksused."\n" Puudutage üksust ja hoidke seda all ning kui see hakkab vibreerima, siis lohistage see prügikastiikoonile. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Mitu avakuva."\n" Vahetamiseks libistage vasakule või paremale. Lohistage üksused teistele ekraanidele."</item>
-    <item msgid="424487960942281801">"Olete selle vidinaga lõpetanud?"\n" Puudutage vidinat ja hoidke seda all ning kui see hakkab vibreerima, siis lohistage see prügikastiikoonile."</item>
+    <item msgid="4457112202911142877">"Vaadake kõiki oma rakendusi.\n Puudutage käivitajaikooni. @drawable/all_apps"</item>
+    <item msgid="8842580895829057430">"Lohistage rakendused oma avakuvale.\n Puudutage käivitajas rakendust ja hoidke seda all seni, kuni see vibreerima hakkab."</item>
+    <item msgid="8903218961940756528">"Korraldage oma avakuva.\n Puudutage üksust ja hoidke seda all ning kui see hakkab vibreerima, siis lohistage see sinna, kuhu soovite."</item>
+    <item msgid="3123213860439458492">"Eemaldage üksused.\n Puudutage üksust ja hoidke seda all ning kui see hakkab vibreerima, siis lohistage see prügikastiikoonile. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Mitu avakuva.\n Vahetamiseks libistage vasakule või paremale. Lohistage üksused teistele ekraanidele."</item>
+    <item msgid="424487960942281801">"Olete selle vidinaga lõpetanud?\n Puudutage vidinat ja hoidke seda all ning kui see hakkab vibreerima, siis lohistage see prügikastiikoonile."</item>
   </string-array>
 </resources>

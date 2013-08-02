@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Melihat semua aplikasi Anda."\n" Sentuh ikon peluncur Launcher. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"Menyeret aplikasi ke layar Utama."\n" Sentuh &amp; tahan aplikasi pada Peluncur sampai aplikasi bergetar."</item>
-    <item msgid="8903218961940756528">"Menata ulang layar Utama."\n" Sentuh &amp; tahan item dan ketika bergetar, seret ke posisi yang Anda inginkan."</item>
-    <item msgid="3123213860439458492">"Menghapus item."\n" Sentuh &amp; tahan item dan ketika bergetar, seret ke ikon Sampah. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Beberapa layar Utama."\n" Sapu ke kiri atau kanan untuk beralih. Seret item ke layar lainnya."</item>
-    <item msgid="424487960942281801">"Puas dengan widget ini?"\n" Sentuh &amp; tahan dan ketika bergetar, seret ke ikon Sampah."</item>
+    <item msgid="4457112202911142877">"Melihat semua aplikasi Anda.\n Sentuh ikon peluncur Launcher. @drawable/all_apps"</item>
+    <item msgid="8842580895829057430">"Menyeret aplikasi ke layar Utama.\n Sentuh &amp; tahan aplikasi pada Peluncur sampai aplikasi bergetar."</item>
+    <item msgid="8903218961940756528">"Menata ulang layar Utama.\n Sentuh &amp; tahan item dan ketika bergetar, seret ke posisi yang Anda inginkan."</item>
+    <item msgid="3123213860439458492">"Menghapus item.\n Sentuh &amp; tahan item dan ketika bergetar, seret ke ikon Sampah. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Beberapa layar Utama.\n Sapu ke kiri atau kanan untuk beralih. Seret item ke layar lainnya."</item>
+    <item msgid="424487960942281801">"Puas dengan widget ini?\n Sentuh &amp; tahan dan ketika bergetar, seret ke ikon Sampah."</item>
   </string-array>
 </resources>

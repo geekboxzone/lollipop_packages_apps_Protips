@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Tingnan ang lahat ng iyong apps."\n" Galawin ang icon ng Launcher. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"I-drag ang apps sa iyong Home screen."\n" Galawin at pindutin nang matagal ang app sa Launcher hanggang sa mag-vibrate ito."</item>
-    <item msgid="8903218961940756528">"Muling isaayos ang iyong Home screen."\n" Galawin at pindutin nang matagal ang isang item at kapag nag-vibrate ito, i-drag ito kung saan mo gusto."</item>
-    <item msgid="3123213860439458492">"Alisin ang mga item."\n" Galawin at pindutin nang matagal ang isang item at kapag nag-vibrate ito, i-drag sa icon ng basurahan. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Maramihang Home screen."\n" Mag-swipe pakaliwa o pakanan upang lumipat. I-drag ang mga item sa ibang mga screen."</item>
-    <item msgid="424487960942281801">"Tapos na sa widget na ito?"\n" Galawin at pindutin nang matagal at kapag nag-vibrate ito, i-drag sa icon ng Basura."</item>
+    <item msgid="4457112202911142877">"Tingnan ang lahat ng iyong apps.\n Galawin ang icon ng Launcher. @drawable/all_apps"</item>
+    <item msgid="8842580895829057430">"I-drag ang apps sa iyong Home screen.\n Galawin at pindutin nang matagal ang app sa Launcher hanggang sa mag-vibrate ito."</item>
+    <item msgid="8903218961940756528">"Muling isaayos ang iyong Home screen.\n Galawin at pindutin nang matagal ang isang item at kapag nag-vibrate ito, i-drag ito kung saan mo gusto."</item>
+    <item msgid="3123213860439458492">"Alisin ang mga item.\n Galawin at pindutin nang matagal ang isang item at kapag nag-vibrate ito, i-drag sa icon ng basurahan. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Maramihang Home screen.\n Mag-swipe pakaliwa o pakanan upang lumipat. I-drag ang mga item sa ibang mga screen."</item>
+    <item msgid="424487960942281801">"Tapos na sa widget na ito?\n Galawin at pindutin nang matagal at kapag nag-vibrate ito, i-drag sa icon ng Basura."</item>
   </string-array>
 </resources>

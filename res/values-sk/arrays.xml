@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Zobrazte si všetky aplikácie."\n" Dotknite sa ikony spúšťača. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"Presuňte aplikácie na plochu."\n" Dotknite sa aplikácie v spúšťači a podržte ju, kým začne vibrovať."</item>
-    <item msgid="8903218961940756528">"Usporiadajte si plochu."\n" Dotknite sa položky a podržte ju. Hneď ako začne vibrovať, presuňte ju kam chcete."</item>
-    <item msgid="3123213860439458492">"Odstránenie položiek."\n" Dotknite sa položky a podržte ju. Hneď ako začne vibrovať, presuňte ju na ikonu koša. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Viacero plôch."\n" Plochu prepnite posunutím prsta doľava alebo doprava. Položky je možné presunúť na inú obrazovku."</item>
-    <item msgid="424487960942281801">"Už miniaplikáciu nepotrebujete?"\n" Podržte ju a hneď ako začne vibrovať, presuňte ju na ikonu koša."</item>
+    <item msgid="4457112202911142877">"Zobrazte si všetky aplikácie.\n Dotknite sa ikony spúšťača. @drawable/all_apps"</item>
+    <item msgid="8842580895829057430">"Presuňte aplikácie na plochu.\n Dotknite sa aplikácie v spúšťači a podržte ju, kým začne vibrovať."</item>
+    <item msgid="8903218961940756528">"Usporiadajte si plochu.\n Dotknite sa položky a podržte ju. Hneď ako začne vibrovať, presuňte ju kam chcete."</item>
+    <item msgid="3123213860439458492">"Odstránenie položiek.\n Dotknite sa položky a podržte ju. Hneď ako začne vibrovať, presuňte ju na ikonu koša. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Viacero plôch.\n Plochu prepnite posunutím prsta doľava alebo doprava. Položky je možné presunúť na inú obrazovku."</item>
+    <item msgid="424487960942281801">"Už miniaplikáciu nepotrebujete?\n Podržte ju a hneď ako začne vibrovať, presuňte ju na ikonu koša."</item>
   </string-array>
 </resources>

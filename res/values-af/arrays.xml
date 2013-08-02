@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Sien al jou programme."\n" Raak die lanseerpoort-ikoon. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"Trek programme na jou tuisskerm."\n" Raak en hou \'n program in die lanseerpoort tot dit vibreer."</item>
-    <item msgid="8903218961940756528">"Herrangskik jou tuisskerm."\n" Raak en hou \'n item, en wanneer dit vibreer, trek dit na waar jy dit wil hê."</item>
-    <item msgid="3123213860439458492">"Verwyder items."\n" Raak en hou \'n item, en wanneer dit vibreer, trek dit na die Snippermandjie-ikoon. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Meerdere tuisskerms."\n" Sleep links of regs om te wissel. Trek items na ander skerms."</item>
-    <item msgid="424487960942281801">"Klaar met hierdie legstuk?"\n" Raak en hou dit, en wanneer dit vibreer, trek dit na die Snippermandjie-ikoon."</item>
+    <item msgid="4457112202911142877">"Sien al jou programme.\n Raak die lanseerpoort-ikoon. @drawable/all_apps"</item>
+    <item msgid="8842580895829057430">"Trek programme na jou tuisskerm.\n Raak en hou \'n program in die lanseerpoort tot dit vibreer."</item>
+    <item msgid="8903218961940756528">"Herrangskik jou tuisskerm.\n Raak en hou \'n item, en wanneer dit vibreer, trek dit na waar jy dit wil hê."</item>
+    <item msgid="3123213860439458492">"Verwyder items.\n Raak en hou \'n item, en wanneer dit vibreer, trek dit na die Snippermandjie-ikoon. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Meerdere tuisskerms.\n Sleep links of regs om te wissel. Trek items na ander skerms."</item>
+    <item msgid="424487960942281801">"Klaar met hierdie legstuk?\n Raak en hou dit, en wanneer dit vibreer, trek dit na die Snippermandjie-ikoon."</item>
   </string-array>
 </resources>

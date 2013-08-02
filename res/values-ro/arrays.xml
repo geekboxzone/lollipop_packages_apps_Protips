@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Consultaţi toate aplicaţiile."\n" Atingeţi pictograma Lansator. @drawable/all_apps"</item>
-    <item msgid="8842580895829057430">"Trageţi aplicaţii în ecranul de pornire."\n" Atingeţi şi menţineţi o aplicaţie din lansator până când vibrează."</item>
-    <item msgid="8903218961940756528">"Modificaţi ordinea elementelor din ecranul de pornire."\n" Atingeţi şi menţineţi un element, iar când vibrează, trageţi-l în locul dorit."</item>
-    <item msgid="3123213860439458492">"Eliminaţi elemente."\n" Atingeţi şi menţineţi un element, iar când vibrează, trageţi-l spre pictograma Coş de gunoi. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Mai multe ecrane de pornire."\n" Glisaţi la stânga sau la dreapta pentru a comuta. Trageţi elemente în alte ecrane."</item>
-    <item msgid="424487960942281801">"Nu·mai·utilizaţi·acest·obiect·widget?"\n"·Atingeţi-l şi menţineţi, iar când vibrează, trageţi-l spre pictograma Coş de gunoi."</item>
+    <item msgid="4457112202911142877">"Consultaţi toate aplicaţiile.\n Atingeţi pictograma Lansator. @drawable/all_apps"</item>
+    <item msgid="8842580895829057430">"Trageţi aplicaţii în ecranul de pornire.\n Atingeţi şi menţineţi o aplicaţie din lansator până când vibrează."</item>
+    <item msgid="8903218961940756528">"Modificaţi ordinea elementelor din ecranul de pornire.\n Atingeţi şi menţineţi un element, iar când vibrează, trageţi-l în locul dorit."</item>
+    <item msgid="3123213860439458492">"Eliminaţi elemente.\n Atingeţi şi menţineţi un element, iar când vibrează, trageţi-l spre pictograma Coş de gunoi. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Mai multe ecrane de pornire.\n Glisaţi la stânga sau la dreapta pentru a comuta. Trageţi elemente în alte ecrane."</item>
+    <item msgid="424487960942281801">"Nu·mai·utilizaţi·acest·obiect·widget?\n·Atingeţi-l şi menţineţi, iar când vibrează, trageţi-l spre pictograma Coş de gunoi."</item>
   </string-array>
 </resources>

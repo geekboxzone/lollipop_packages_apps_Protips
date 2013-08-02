@@ -17,11 +17,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
-    <item msgid="4457112202911142877">"Bona zonke izinhlelo zakho zokusebenza."\n" Thinta isithonjana Sokuqalisa. @drawable/trash"</item>
-    <item msgid="8842580895829057430">"Idonsa izinhlelo zokusebenza kwisikrini sakho Sasekhaya. "\n" Thinta &amp; bamba uhlelo lokusebenza Kusiqalisi kuze kube yilapho ludlidliza."</item>
-    <item msgid="8903218961940756528">"Hlela kabusha isikrini sakho Sasekhaya "\n" Thinta &amp; ubambe intwana futhi lapho isidlidliza, idonsele lapho ofuna khona."</item>
-    <item msgid="3123213860439458492">"Khipha izintwana. "\n" Thinta &amp; bamba intwana futhi lapho isidlidliza, idonsele kwisithonjana Sodoti. @drawable/trash"</item>
-    <item msgid="1000948398885889319">"Izikrini Zasekhaya Eziningi."\n"Iya ngakwesokunxele noma esokudla ukushintsha. Donsa izintwana kwezinye izikrini."</item>
-    <item msgid="424487960942281801">"Uqedile ngale wijethi?"\n" Thinta &amp; sibambe futhi lapho sidlidliza, sidonsele kwisithonjana Sodoti."</item>
+    <item msgid="4457112202911142877">"Bona zonke izinhlelo zakho zokusebenza.\n Thinta isithonjana Sokuqalisa. @drawable/trash"</item>
+    <item msgid="8842580895829057430">"Idonsa izinhlelo zokusebenza kwisikrini sakho Sasekhaya. \n Thinta &amp; bamba uhlelo lokusebenza Kusiqalisi kuze kube yilapho ludlidliza."</item>
+    <item msgid="8903218961940756528">"Hlela kabusha isikrini sakho Sasekhaya \n Thinta &amp; ubambe intwana futhi lapho isidlidliza, idonsele lapho ofuna khona."</item>
+    <item msgid="3123213860439458492">"Khipha izintwana. \n Thinta &amp; bamba intwana futhi lapho isidlidliza, idonsele kwisithonjana Sodoti. @drawable/trash"</item>
+    <item msgid="1000948398885889319">"Izikrini Zasekhaya Eziningi.\nIya ngakwesokunxele noma esokudla ukushintsha. Donsa izintwana kwezinye izikrini."</item>
+    <item msgid="424487960942281801">"Uqedile ngale wijethi?\n Thinta &amp; sibambe futhi lapho sidlidliza, sidonsele kwisithonjana Sodoti."</item>
   </string-array>
 </resources>
